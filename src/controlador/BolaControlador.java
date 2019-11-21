@@ -103,7 +103,8 @@ public class BolaControlador {
 		hb.getChildren().add(bt);
 		ap.setTop(texF);
 		ap.setCenter(hb);
-		
+		lb.setText("Enter file name (Game.txt)");
+		ap.setBottom(lb);
 		Scene scene = new Scene(ap , 300,300);
 		n.setScene(scene);
 		n.show();
