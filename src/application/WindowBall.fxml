@@ -14,15 +14,15 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Archive">
                   <items>
-                        <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Cargar Juego" />
-                        <MenuItem mnemonicParsing="false" text="Guardar Juego" />
-                        <MenuItem mnemonicParsing="false" onAction="#exit" text="Salir" />
+                        <MenuItem mnemonicParsing="false" onAction="#loadGame" text="Load Game" />
+                        <MenuItem mnemonicParsing="false" text="Save Game" />
+                        <MenuItem mnemonicParsing="false" onAction="#exit" text="Exit" />
                   </items>
                 </Menu>
-                <Menu mnemonicParsing="false" text="Ver">
+                <Menu mnemonicParsing="false" text="View">
                   <items>
-                    <MenuItem mnemonicParsing="false" onAction="#verMejores" text="Mejores Puntajes" />
-                        <MenuItem mnemonicParsing="false" onAction="#aboutGame" text="Acerca del Juego" />
+                    <MenuItem mnemonicParsing="false" onAction="#verMejores" text="Hall of the game" />
+                        <MenuItem mnemonicParsing="false" onAction="#aboutGame" text="About Game" />
                   </items>
                 </Menu>
               </menus>

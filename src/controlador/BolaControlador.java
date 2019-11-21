@@ -98,7 +98,7 @@ public class BolaControlador {
 		
 		HBox hb = new HBox();
 		Label lb =new Label();
-		Button bt = new Button("Cargar");
+		Button bt = new Button("Load");
 		
 		hb.getChildren().add(bt);
 		ap.setTop(texF);
@@ -112,12 +112,12 @@ public class BolaControlador {
 			 game = new Game(texF.getText());
 			 mover();
 			 if (texF.getText().contentEquals("Game.txt")) {
-				 lb.setText("Ha cargado el archivo exitosamente");
+				 lb.setText("The File has loaded successfully");
 				 ap.setBottom(lb);
 				 Stage s = (Stage)ap.getScene().getWindow();
 				 s.close();
 			 }else {
-				 lb.setText("El archivo: "+texF.getText()+". No Existe (Game.txt)");
+				 lb.setText("The Archive: "+texF.getText()+".does not exist.  (Game.txt)");
 				 ap.setBottom(lb);
 			 }
 		

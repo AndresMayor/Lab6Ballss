@@ -13,7 +13,7 @@ public class Main extends Application {
 		try {
 			AnchorPane root = (AnchorPane)FXMLLoader.load(getClass().getResource("WindowBall.fxml"));
 			Scene scene = new Scene(root,400,500);
-			primaryStage.setTitle("Atrapala Ya.....!");
+			primaryStage.setTitle("Catch he now.....!");
 			primaryStage.setScene(scene);
 			primaryStage.setResizable(false);
 			primaryStage.show();
